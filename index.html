@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Сайт-вдохновение</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Сайт-вдохновение</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Воспрянь духом!</h1>
-    <div id="joke">
-        <p>Шутка</p>
+  <div class="main">
+    <div class="header">
+      <h1>Воспрянь духом!</h1>
     </div>
-    <input type="button" value="Еще шутку!" onclick="func()">
-    <script type="text/javascript" src="script.js"></script>
-    <script>func()</script>
+    <div id="joke" class="joke">
+      <p>Шутка</p>
+    </div>
+  <input type="button" value="Еще шутку!" onclick="func()">
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+  <script>get_joke()</script>
 </body>
 </html>
