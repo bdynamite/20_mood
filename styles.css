@@ -1,0 +1,10 @@
+body {
+  background: black url(bckgrnd.jpg) no-repeat;
+  background-size: 100%;
+  color: white;
+  text-align: center;
+}
+.main {
+  width: 50%;
+  float: right;
+}
