@@ -1,6 +1,6 @@
 # Site for the Mood
 
-Site with jokes is [here](https://bdynamite.github.io/index.html)
+Site with jokes is [here](https://bdynamite.github.io/20_mood/)
 
 # Project Goals
 
