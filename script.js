@@ -1,4 +1,4 @@
-function get_joke() {
+function insert_joke() {
   var arr = [
   {
     'phrase': "Если ты будешь усердно работать по 8 часов в день, то обязательно станешь боссом и начнешь работать по 12"
@@ -19,10 +19,13 @@ function get_joke() {
     'phrase': "Хорошая жизнь. Жить я её, конечно, не буду."
   },
   {
+    'phrase': "Вывеска над кафе — '&lt;Мы открылись&gt;'. Что-то не так. Где же '&lt;/Мы открылись&gt;'?"
+  },
+  {
     'phrase': "Взросление — это что-то про квартплату"
   }
   ];
   var rand = Math.floor(Math.random() * arr.length);
   var elem = document.getElementById("joke")
-  elem.innerHTML = "<p>" + arr[rand].phrase + "</p>";
+  elem.innerHTML = arr[rand].phrase;
 }
