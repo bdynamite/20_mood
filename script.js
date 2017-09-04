@@ -19,7 +19,7 @@ function insert_joke() {
     'phrase': "Хорошая жизнь. Жить я её, конечно, не буду."
   },
   {
-    'phrase': "Вывеска над кафе — '&lt;Мы открылись&gt;'. Что-то не так. Где же '&lt;/Мы открылись&gt;'?"
+    'phrase': "Вывеска над кафе — '<Мы открылись>'. Что-то не так. Где же '</Мы открылись>'?"
   },
   {
     'phrase': "Взросление — это что-то про квартплату"
@@ -27,5 +27,5 @@ function insert_joke() {
   ];
   var rand = Math.floor(Math.random() * arr.length);
   var elem = document.getElementById("joke")
-  elem.innerHTML = arr[rand].phrase;
+  elem.textContent = arr[rand].phrase;
 }
